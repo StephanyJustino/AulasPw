@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <title>Aula PW</title>
+</head>
+<body>
+
+    <h1> Formulário </h1>
+    <form action="http://stephany-julia-justino.atwebpages.com/TabelaPw/inserir.php" name="inserirAluno" method="post" id="forms">
+        <br>
+        <div class="div1">
+           
+            <input type="text" class="nome" name="nome" id="nome" placeholder="Nome" required>
+        </div>
+        <br>
+        <div class="div2">
+            
+            <input type="number" class="nota1" name="nota1" id="nota1" placeholder="Nota 1" required>
+        </div>
+        <br>
+        <div class="div3">
+            <input type="number" class="nota2" name="nota2" id="nota2" placeholder="Nota 2" required>
+        </div>
+        <br>
+        <div class="div4">
+            <input type="number" class="nota3" name="nota3" id="nota3" placeholder="Nota 3" required>
+        </div>
+        <br>
+        <label>
+        <button type="submit" class="inserir" > Inserir  </button>
+    </label>
+
+    <label>
+        <button type="submit" class="deletarAluno" > Deletar  </button>
+    </label>
+    <br>
+    <label>
+        <button type="submit" class="editarAluno" > Editar  </button>
+    </label>
+    
+    <label>
+        <button type="submit" class="listarAluno" > Listar  </button>
+    </label>
+    </form>
+    <br>
+    <br>
+<div id="tabela">
+        <table id="tabelaAluno">
+            <tr>
+                <th>Aluno</th>
+                <th>Nota1</th>
+                <th>Nota2</th>
+                <th>Nota3</th>
+                <th>Média</th>
+            </tr>
+            <tr>
+                <td>Bianca</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>    
+                <td></td>      
+            </tr>
+            <tr>
+                <td>Yan1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>Yan2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>3</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>0</td>
+                <td>2</td>
+                <td>2</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>Kevin1</td>
+                <td>0</td>
+                <td>5</td>
+                <td>4</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>Kevin2</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td></td>  
+            </tr>
+            <tr>
+                <td>Raphaely</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td></td>  
+            </tr>
+        </table>
+    </div>
+    <br>
+</div>
+    <script src="./script.js" type="text/javascript" ></script>
+    <script src="./inserirAluno.js" type="text/javascript" ></script>
+</body>
+</html>

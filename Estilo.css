@@ -1,0 +1,48 @@
+.reprovado{
+    background-color: red;
+}
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+}
+body {
+    background-color:rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    background-color:#c3ecd5c7;
+    width: 25vw;
+}
+label {
+    margin-right: 17px;
+}
+td {
+    background-color: #c3ecd5;
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+}
+tr{
+    background-color: white ;
+}
+#tabela{
+    border: 1px solid black;
+    width: auto;
+    margin-left: 40vw;
+
+}
+button {
+    width: 10vw;
+    font-size: medium;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+html {
+    display: grid;
+}
+h3{
+    margin-top: 5px;
+}
